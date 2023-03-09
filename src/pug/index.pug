@@ -1,0 +1,14 @@
+extends layout/app
+
+block page
+  include chunk/header
+
+  h1.title Главная страница
+
+  img(src="img/logotype.png", atl="Логотип", width="500")
+
+  ul.news
+    each item in news
+      li=item.name
+
+  include chunk/footer
