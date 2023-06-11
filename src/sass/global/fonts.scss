@@ -1,0 +1,12 @@
+@mixin font-face($family, $url, $weight: 400) {
+  @font-face {
+    font-family: $family;
+    font-style: normal;
+    font-weight: $weight;
+    src: url("#{$url}.woff2") format("woff2"), url("#{$url}.woff") format("woff");
+    font-display: swap;
+  }
+}
+
+@include font-face("Montserrat", "../fonts/montserrat");
+@include font-face("Montserrat", "../fonts/montserratbold", 700);

@@ -1,0 +1,28 @@
+// Colors
+// для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
+
+// Default
+$color-black:                 #0e0e0e;
+
+// Project
+$color-silver:                #c2c2c2;
+$color-white-smoke:           #f3f3f3;
+$color-very-light-grey:       #cbcbcb;
+$color-vis-vis:               #f9e18f;
+
+$from-middle:                 linear-gradient(90deg, #433C24 0.83%, #F0D573 51.87%, #3E3619 100%);
+$left-to-right:               linear-gradient(256.66deg, #FFE37F -20.44%, rgba(0, 0, 0, 0.63) 81.42%), linear-gradient(97.09deg, rgba(255, 255, 255, 0.3) -5.19%, rgba(105, 105, 105, 0.3) 103.06%);
+$simple-grey:                 linear-gradient(93.28deg, rgba(255, 255, 255, 0.07) 4.53%, rgba(255, 255, 255, 0.09) 98.14%);
+$vis-circle:                  rgba(141, 120, 44, 0.28);
+$blue-circle:                 rgba(9, 15, 68, 0.49);
+
+// Viewports
+$vp-320:                      320px;
+$vp-768:                      768px;
+$vp-1024:                     1024px;
+$vp-1280:                     1280px;
+$vp-1440:                     1440px;
+$vp-1920:                     1920px;
+
+// Fonts
+$base-font-size: 21px;
